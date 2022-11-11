@@ -8,7 +8,7 @@ const MyReviews = () => {
   const { user, logOut } = useContext(AuthContext);
   const [myReviews, setMyReviews] = useState([]);
   useEffect(() => {
-    fetch(`https://world-photography-server-babriwala.vercel.app/myReviews?email=${user?.email}`, {
+    fetch(`http://localhost:5000/myReviews?email=${user?.email}`, {
       // headers:{
       //     authorization: `Bearer ${localStorage.getItem('photographyToken')}`
       // }
@@ -29,7 +29,7 @@ const MyReviews = () => {
   const handleDelete = id => {
     const proceed = window.confirm('Are you sure, you want to delete this review', id);
     if (proceed) {
-        fetch(`https://world-photography-server-babriwala.vercel.app/myReviews/${id}`, {
+        fetch(`http://localhost:5000/myReviews/${id}`, {
             method: 'DELETE',
     })
     .then(res => res.json())
@@ -45,7 +45,7 @@ const MyReviews = () => {
 
 
 const handleReviewUpdate = (id, editMessage, editRating) => {
-  fetch(`https://world-photography-server-babriwala.vercel.app/review/edit/${id}`, {
+  fetch(`http://localhost:5000/review/edit/${id}`, {
       method: 'PATCH',
       headers: {
           'content-type': 'application/json',

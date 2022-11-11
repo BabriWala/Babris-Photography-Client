@@ -4,7 +4,7 @@ import "./Banner.css";
 const Banner = () => {
   return (
     <div>
-      <div className="banner">
+      <div className="banner p-8 lg:p-20">
         <h1 className="text-2xl lg:text-6xl font-bold">Welcome to Babri's PhotoGraphy</h1>
         <p className="w-full lg:w-3/5 mx-auto mt-5">
           I am a professional photographer. If you are interesed in photoshot

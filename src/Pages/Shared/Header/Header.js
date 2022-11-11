@@ -16,7 +16,7 @@ const Header = () => {
   return (
       <nav className="bg-white px-2 lg:px-0 sm:px-4 py-2.5 dark:bg-gray-900 w-full z-20 border-b border-gray-200 dark:border-gray-600">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
-          <Link to={'/'} className="font-bold text-xl">Babri's PhotoGraphy</Link>
+          <Link to={'/'} className="font-bold lg:text-xl">Babri's PhotoGraphy</Link>
           <div className="flex md:order-2">
             {
               user ? 
@@ -24,14 +24,14 @@ const Header = () => {
               <button
               onClick={handleLogOut}
               type="button"
-              className="text-black border-2 border-black hover:text-white hover:border-2 b order-black font-bold bg-transparent hover:bg-black outline-none focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-transparent dark:focus:ring-blue-800"
+              className="text-black border-2 border-black hover:text-white hover:border-2 b order-black font-bold bg-transparent hover:bg-black outline-none focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-3 py-2 lg:px-5 lg:py-2.5 text-center mr-1 lg:mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-transparent dark:focus:ring-blue-800"
             >
               Log Out
             </button>
               : 
               <Link to={'/login'}><button
               type="button"
-              className="text-black border-2 border-black hover:text-white hover:border-2 b order-black font-bold bg-transparent hover:bg-black outline-none focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-transparent dark:focus:ring-blue-800"
+              className="text-black border-2 border-black hover:text-white hover:border-2 b order-black font-bold bg-transparent hover:bg-black outline-none focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-3 py-2 lg:px-5 lg:py-2.5 text-center mr-1 lg:mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-transparent dark:focus:ring-blue-800"
             >
               Log In
             </button></Link>

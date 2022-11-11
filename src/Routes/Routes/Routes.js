@@ -32,12 +32,12 @@ export const router = createBrowserRouter([
             {
                 path: '/services',
                 element: <Services></Services>,
-                loader: ()=> fetch('https://world-photography-server-babriwala.vercel.app/services')
+                loader: ()=> fetch('http://localhost:5000/services')
             },
             {
                 path: '/services/:id',
                 element: <ServiceDetails></ServiceDetails>,
-                loader: ({params}) => fetch(`https://world-photography-server-babriwala.vercel.app/services/${params.id}`)
+                loader: ({params}) => fetch(`http://localhost:5000/services/${params.id}`)
             },
             {
                 path: '/myReviews',
@@ -50,7 +50,7 @@ export const router = createBrowserRouter([
             {
                 path: '/myReviews/edit/:id',
                 element: <EditReview></EditReview>,
-                loader: ({params}) => fetch(`https://world-photography-server-babriwala.vercel.app/review/edit/${params.id}`)
+                loader: ({params}) => fetch(`http://localhost:5000/review/edit/${params.id}`)
             },
             {
                 path: '/register',

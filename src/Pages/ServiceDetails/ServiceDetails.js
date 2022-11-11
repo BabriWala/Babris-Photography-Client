@@ -15,7 +15,7 @@ const ServiceDetails = () => {
 
   const [reviews, setReviews] = useState([])
   useEffect(()=>{
-    fetch(`https://world-photography-server-babriwala.vercel.app/review/${_id}`)
+    fetch(`http://localhost:5000/review/${_id}`)
     .then(res => res.json())
     .then(data => setReviews(data))
   },[_id])

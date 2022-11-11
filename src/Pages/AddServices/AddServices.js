@@ -28,7 +28,7 @@ const AddServices = () => {
       email: user.email
     }
    
-    fetch('https://world-photography-server-babriwala.vercel.app/addService',{
+    fetch('http://localhost:5000/addService',{
       method: 'POST',
       headers: {
         'content-type' : 'application/json'
@@ -47,7 +47,7 @@ const AddServices = () => {
 
 
   return (
-    <section className="p-6 w-full lg:w-3/4 mx-auto dark:bg-gray-800 dark:text-gray-50">
+    <section className="p-6 w-full mx-auto dark:bg-gray-800 dark:text-gray-50">
       <Helmet>
         <title>{`Babri's Photography - Add Services`}</title>
       </Helmet>

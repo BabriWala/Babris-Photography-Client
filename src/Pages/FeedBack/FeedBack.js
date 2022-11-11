@@ -24,7 +24,7 @@ const FeedBack = ({id, title}) => {
             email: user.email
 
         }
-        fetch('https://world-photography-server-babriwala.vercel.app/addReview',{
+        fetch('http://localhost:5000/addReview',{
             method: 'POST',
             headers: {
                 'content-type' : 'application/json'

@@ -27,7 +27,7 @@ const Login = () => {
             // }
 
             // get jwt token
-            // fetch('https://world-photography-server-babriwala.vercel.app/jwt',{
+            // fetch('http://localhost:5000/jwt',{
             //   method: 'POST',
             //   headers: {
             //     'content-type' : 'application/json'
@@ -150,10 +150,10 @@ const Login = () => {
           </svg>
         </button>
       </div>
-      <p className="text-xs text-center sm:px-6 dark:text-gray-400">
+      <p className="text-center sm:px-6 py-5 dark:text-gray-400 text-sm">
         Don't have an account?
         
-          <Link to={'/register'}>Sign up</Link>
+          <Link to={'/register'} className='text-bold italic ml-2 underline'>Sign up</Link>
       </p>
         </>
       }
