@@ -1,0 +1,44 @@
+[
+    {
+        "title" : "Editorial Photography",
+        "description" : "Traditionally, editorial photography means the images that accompany an article in a publication. But editorial images can also exist on their own and imply a narrative or outline a creative concept. “What distinguishes it from advertising is that there’s an element of storytelling to it,” says professional photographer Amanda Lopez. Different from an unstaged photo of a football game or political rally, editorial images require more planning and preparation. Typically when an article highlights a specific subject matter, like a person, fashion show, or piece of architecture, it’s photographed in a more intimate or elaborate way that highlights the narrative. “It’s about capturing those in-between moments. I make sure that I’m not only focusing on whoever’s in front of my camera, but on capturing what’s around them,” says photographer Allie Hine.",
+        "img" : "https://i.ibb.co/1q9mkY5/editorial.jpg",
+        "price" : "100$",
+        "rating" : "5"
+    },
+    {
+        "title" : "Advertising Photography",
+        "description" : "Advertising photography is a type of photography that focuses on taking pictures for high-impact advertisements, like what you would see in a magazine. These images are usually high-quality, methodically controlled and feature elements meant to engage with an audience. For example, a clothing brand is likely to use this type of photography to market its fall clothing line, featuring images that are stylized specifically to appeal to viewers and present the brand's message. With this style of photography, the purpose is still to sell a product or service. However, the focus is less on the product and it's more about the narrative that the item represents. The extravagant image works to make the item more appealing than it actually is, usually by placing it within a lavish context. For example, a luxury wine company is trying to sell its newest wine. In the advertising image, a woman in a bright red dress stands at the top of a mountain holding a small glass of wine. The photograph is bold and purposefully exaggerated.",
+        "img" : "https://i.ibb.co/0B5J5pB/advertising.jpg",
+        "price" : "150$",
+        "rating" : "4"
+    },
+    {
+        "title" : "Corporate Photography",
+        "description" : "Corporate Photography broadly refers to any photography done for the purpose of use by a company. In today’s competitive world of business, companies are more aware of the importance of corporate photography in creating a specific identity for their company and its employees. It is not only about branding, but by creatively demonstrating a personal side of the business, corporate photography can create a connection with customers as well as differentiating a company from its competitors. Good corporate photographs are crucial in key company functions like branding, marketing as well as in internal communications which help to create a sense of awareness and belonging among the staff. An important task of a corporate photographer is to capture images that represent the company’s progress and achievements, which are in turned used in annual reports seen by customers and shareholders. In today’s digital age, whether you are telling a story, engaging an audience, inspiring staff, showcasing your leadership or creating fresh and informative content; high quality pictures of the company and its products and services that attract plenty of attention are needed to fuel content on a company’s websites, e-brochures and more importantly its social media. The quality of these corporate images as seen by millions online, tend to play a fundamental role in helping to increase sales and overall public perception of the company; whereas low quality images were found to achieve the reverse effect, damaging public opinion and turning businesses away.",
+        "img" : "https://i.ibb.co/6vR1N3F/corporate.jpg",
+        "price" : "200$",
+        "rating" : "5"
+    },
+    {
+        "title" : "Event Photography",
+        "description" : "Event photography is the professional art of snapping high-quality images during a wide variety of important occasions, from personal events like weddings or birthday parties to large public gatherings like corporate events, galas, award ceremonies, and music festivals. Wedding photography is often thought of as its own separate genre, but a wedding photographer’s skills can be applied to other types of event photography. Typically, the goal for any event shoot is to compile a variety of posed and candid photographs of both people and scenery. “Even though you’ll be interacting with people and saying, ‘Hey, do you mind if I get a photo?’ for the most part you’re walking around being a documentarian,” says commercial photographer Andrew Bennett. Event photography can be fascinating and exciting. “A camera grants you access to places you wouldn’t go normally. You end up in unique places and situations.”",
+        "img" : "https://i.ibb.co/nsDkff9/event.jpg",
+        "price" : "250$",
+        "rating" : "4"
+    },
+    {
+        "title" : "Food & Drink Photography",
+        "description" : "At Wonderful Machine we define food photography as depicting it as “a product or an experience, including showing it being grown, prepared, served, consumed.” Food & drink photography can be editorial (like cookbooks and magazines) and commercial (like packaging and advertising). This specialty can overlap other specialties, such as travel photography, product photography, restaurant, and hospitality, or even portraiture of the chef, staff, and customer base. Then there are all the different types of food, baked goods, dry goods, hot goods, cold goods, etc. As a result of this overlap, a successful food photographer will need at least some experience doing many if not all of these aspects. Food photography as an experience creates a feeling for the viewer and will typically involve some sort of lifestyle photography as well. Some of the usual feelings incurred by this photography is a sense of nostalgia or a sort of lust for the “experience” being portrayed. Take, for instance, this advertisement Motofish shot for Smithworks. Food photography as a product is more focused on accessing the viewers’ other senses through the imagery, whether that’s smell, taste, touch or hearing. You look at those images and instead of the story, memories, and wishful thinking, you get the smoke wafting through the air, the imaginary flavors on the tip of your tongue, the textures in perfect harmony, and the sizzling of the grease echoing in your ear.",
+        "img" : "https://i.ibb.co/8DYBRyG/food-and-drink.jpg",
+        "price" : "250$",
+        "rating" : "5"
+    },
+    {
+        "title" : "Portrait Photographyy",
+        "description" : "Portrait photography is about capturing the essence, personality, identity and attitude of a person utilizing backgrounds, lighting and posing. While this definition may sound simple, portrait photography can be one of the most challenging forms of photography to master. The goal is to capture a photo that appears both natural and prepared to allow the subject’s personality to show through. As long as the portrait photographer can effectively capture the subject’s character, the equipment he/she uses does not really matter. While it always helps to have equipment that is state of the art, it is really not needed.",
+        "img" : "https://i.ibb.co/J5wW18j/portrait.jpg",
+        "price" : "300$",
+        "rating" : "5"
+    }
+]
